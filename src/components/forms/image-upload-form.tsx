@@ -30,7 +30,7 @@ function ImageUploadForm() {
   return (
     <form action={action}>
       {/* Image Preview or Upload Prompt */}
-      <div className="border border-dashed border-gray-300 rounded-xl aspect-video flex items-center justify-center overflow-hidden">
+      <div className="border border-dashed border-gray-300 rounded-xl aspect-square flex items-center justify-center overflow-hidden">
         <a
           href="https://youtube.com/@kamoio"
           target="_blank"
